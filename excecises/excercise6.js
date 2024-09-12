@@ -20,3 +20,4 @@ console.log("-----------------------------------")
 console.log(calcularDescuento(100, 20)); // 80
 console.log(calcularDescuento(50, -5));  // "Porcentaje no válido"
 console.log(calcularDescuento(25,30))
+console.log(calcularDescuento(20,90))
