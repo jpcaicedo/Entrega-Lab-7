@@ -25,3 +25,4 @@ console.log(clasificarEdad(10));  // "Niño"
 console.log(clasificarEdad(16));  // "Adolescente"
 console.log(clasificarEdad(30));  // "Adulto"
 console.log(clasificarEdad(70));  // "Adulto mayor"
+console.log(clasificarEdad(66))
