@@ -23,8 +23,6 @@ Además, debe clasificar el IMC:
 "Obesidad" si es 30 o más.
 */
 function calcularIMC(peso, altura) {
-
-
 console.log("-----------------------------------")
 console.log("EJERCICIO 8")
 console.log("-----------------------------------")
@@ -37,4 +35,4 @@ console.log("EJERCICIO 8")
 console.log("-----------------------------------")
 console.log(calcularIMC(60, 1.7)); // "Normal"
 console.log(calcularIMC(80, 1.7)); // "Sobrepeso"
-console.log(calcularIMC(50, 60))
+console.log(calcularIMC(50, 60)) 
