@@ -21,4 +21,4 @@ console.log("EJERCICIO 7");
 console.log("-----------------------------------");
 console.log(validarContrasena("pass1234")); // "Contraseña válida"
 console.log(validarContrasena("password")); // "Contraseña no válida"
-console.log(validarContrasena("PaPP"))
+console.log(validarContrasena("PaPP")) 
