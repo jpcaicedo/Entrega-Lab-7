@@ -7,20 +7,18 @@ Debe contener al menos un número.
 Si cumple con ambas, retornar "Contraseña válida", de lo contrario "Contraseña no válida".
 */
 function validarContrasena(contrasena) {
-    function validarContrasena(contrasena) {
-        // Verifica si tiene al menos 8 caracteres y si contiene al menos un número
-        const tieneNumero = /\d/;  // Expresión regular para verificar si contiene un número
-        if (contrasena.length >= 8 && tieneNumero.test(contrasena)) {
-            return "Contraseña válida";
-        } else {
-            return "Contraseña no válida";
-        }
+    // Verifica si tiene al menos 8 caracteres y si contiene al menos un número
+    const tieneNumero = /\d/;  // Expresión regular para verificar si contiene un número
+    if (contrasena.length >= 8 && tieneNumero.test(contrasena)) {
+        return "Contraseña válida";
+    } else {
+        return "Contraseña no válida";
     }
 }
 
-console.log("-----------------------------------")
-console.log("EJERCICIO 7")
-console.log("-----------------------------------")
+console.log("-----------------------------------");
+console.log("EJERCICIO 7");
+console.log("-----------------------------------");
 console.log(validarContrasena("pass1234")); // "Contraseña válida"
 console.log(validarContrasena("password")); // "Contraseña no válida"
-console.log(validarContrasena("pass2356"))
+console.log(validarContrasena("PaPP"))
